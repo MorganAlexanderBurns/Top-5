@@ -1,0 +1,118 @@
+/* ADD YOUR CUSTOM CSS TO THIS FILE */
+
+/* Classes are selected by using the "." before the selector. */
+/* ID's are selected by using the "#" before the selector. */
+
+/* Colors */
+/* Add background color to the body */
+body {
+  background-color: #f8f9fa;
+  padding-left:5px;
+  padding-right:5px;
+}
+
+/* Home page Description */
+#description {
+  text-align: center;
+}
+/* Style the header */
+h1 {
+  color: #dc3545;
+}
+
+/* Style the navigation dropdown button */
+.dropdown-toggle {
+  background-color: #dc3545;
+  border-color: #dc3545;
+}
+
+/* Style the navigation dropdown menu */
+.dropdown-menu {
+  background-color: #f8f9fa;
+}
+
+/* Style the navigation dropdown links */
+.dropdown-item {
+  color: #343a40;
+}
+
+/* Style the active carousel item */
+.carousel-item.active {
+  filter: brightness(80%);
+}
+
+/* Style the top 5 anime section */
+h2 {
+  color: #dc3545;
+}
+
+/* Style the rank 1 anime title */
+.col-md-6 h3:first-child {
+  color: #dc3545;
+}
+
+/* Style the rank 1 anime description */
+.col-md-6 p:first-child {
+  color: #343a40;
+  }
+
+/*Links*/
+a:link { 
+	font-weight: bold; 
+	text-decoration: none; 
+	color:blue;
+	}
+a:visited { 
+	font-weight: bold; 
+	text-decoration: none;
+	color:purple;
+	}
+a:hover, a:focus, a:active { 
+	text-decoration: underline;
+	color:red;
+	}
+
+/* Navigation */
+.dropdown-menu li {
+  list-style: none;
+}
+.dropdown-menu li a {
+  color: black;
+  text-decoration: none;
+}
+.dropdown-menu li a:hover {
+  color: white;
+  background-color: black;
+}
+
+/* Carousel */
+.carousel-item img {
+  height: 500px;
+  object-fit: cover;
+}
+
+/* Top 5 Content */
+.row h2 {
+  font-size: 36px;
+  font-weight: bold;
+  margin-top: 50px;
+  margin-bottom: 20px;
+}
+.col-md-6 h3 {
+  font-size: 24px;
+  font-weight: bold;
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+.col-md-6 p {
+  font-size: 16px;
+  line-height: 1.5;
+  margin-top: 0;
+  margin-bottom: 20px;
+}
+
+Footer {
+	text-align: center;
+  background-color:#dc3545;
+  
+}
